@@ -5,7 +5,9 @@ public class Application {
 	
 
 	public static void main(String[] args) {
-		System.out.println("teste bem sucedido");
+		NovaClasse teste = new NovaClasse();
+		teste.setNome("Stefany");
+		teste.informarNome();
 	}
 
 }
